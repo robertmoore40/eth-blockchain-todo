@@ -18,3 +18,8 @@ contract TodoList {
      string content,
     bool completed
   );
+
+ event TaskCompleted(
+    uint id,
+    bool completed
+  );
