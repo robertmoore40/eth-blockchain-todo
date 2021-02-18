@@ -23,3 +23,7 @@ contract TodoList {
     uint id,
     bool completed
   );
+
+  constructor() public {
+    createTask("Check out dappuniversity.com");
+  }
