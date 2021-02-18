@@ -15,3 +15,6 @@ contract TodoList {
 
     event TaskCreated(
     uint id,
+     string content,
+    bool completed
+  );
