@@ -27,3 +27,6 @@ contract TodoList {
   constructor() public {
     createTask("Check out dappuniversity.com");
   }
+
+   function createTask(string memory _content) public {
+    taskCount ++;
