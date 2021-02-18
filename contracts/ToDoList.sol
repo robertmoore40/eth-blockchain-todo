@@ -8,3 +8,6 @@ contract TodoList {
     string content;
     bool completed;
   }
+
+
+   mapping(uint => Task) public tasks;
