@@ -18,3 +18,5 @@ it('lists tasks', async () => {
     const task = await this.todoList.tasks(taskCount)
     assert.equal(task.id.toNumber(), taskCount.toNumber())
     assert.equal(task.content, 'Check out dappuniversity.com')
+    assert.equal(task.completed, false)
+    assert.equal(taskCount.toNumber(), 1)
