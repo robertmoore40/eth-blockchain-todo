@@ -31,3 +31,6 @@ it('creates tasks', async () => {
     assert.equal(event.content, 'A new task')
     assert.equal(event.completed, false)
 })
+
+it('toggles task completion', async () => {
+    const result = await this.todoList.toggleCompleted(1)
