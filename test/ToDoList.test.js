@@ -11,3 +11,4 @@ contract('TodoList', (accounts) => {
     assert.notEqual(address, '')
     assert.notEqual(address, null)
     assert.notEqual(address, undefined)
+})
