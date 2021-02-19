@@ -12,3 +12,7 @@ contract('TodoList', (accounts) => {
     assert.notEqual(address, null)
     assert.notEqual(address, undefined)
 })
+
+it('lists tasks', async () => {
+    const taskCount = await this.todoList.taskCount()
+    const task = await this.todoList.tasks(taskCount)
