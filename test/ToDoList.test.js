@@ -20,3 +20,4 @@ it('lists tasks', async () => {
     assert.equal(task.content, 'Check out dappuniversity.com')
     assert.equal(task.completed, false)
     assert.equal(taskCount.toNumber(), 1)
+})
