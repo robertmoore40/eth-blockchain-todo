@@ -40,3 +40,5 @@ it('toggles task completion', async () => {
     assert.equal(event.id.toNumber(), 1)
     assert.equal(event.completed, true)
 })
+
+})
