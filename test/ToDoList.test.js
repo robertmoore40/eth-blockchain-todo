@@ -21,3 +21,6 @@ it('lists tasks', async () => {
     assert.equal(task.completed, false)
     assert.equal(taskCount.toNumber(), 1)
 })
+
+it('creates tasks', async () => {
+    const result = await this.todoList.createTask('A new task')
