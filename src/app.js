@@ -13,3 +13,5 @@ App = {
         if (typeof web3 !== 'undefined') {
             App.web3Provider = web3.currentProvider
             web3 = new Web3(web3.currentProvider)
+        } else {
+            window.alert("Please connect to Metamask.")
