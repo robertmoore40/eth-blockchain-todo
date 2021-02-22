@@ -25,3 +25,7 @@ App = {
         await ethereum.enable()
         // Acccounts now exposed
         web3.eth.sendTransaction({/* ... */})
+    } catch (error) {
+        // User denied account access...
+      }
+    }
