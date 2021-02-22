@@ -8,3 +8,6 @@ App = {
         await App.loadContract()
         await App.render()
       },
+
+      loadWeb3: async () => {
+        if (typeof web3 !== 'undefined') {
