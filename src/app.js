@@ -20,3 +20,8 @@ App = {
         if (window.ethereum) {
             window.web3 = new Web3(ethereum)
             try {
+
+                 // Request account access if needed
+        await ethereum.enable()
+        // Acccounts now exposed
+        web3.eth.sendTransaction({/* ... */})
