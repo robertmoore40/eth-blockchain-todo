@@ -35,3 +35,7 @@ App = {
 
         App.web3Provider = web3.currentProvider
         window.web3 = new Web3(web3.currentProvider)
+
+           // Acccounts always exposed
+      web3.eth.sendTransaction({/* ... */})
+    }
