@@ -16,3 +16,7 @@ App = {
         } else {
             window.alert("Please connect to Metamask.")
         }
+
+        if (window.ethereum) {
+            window.web3 = new Web3(ethereum)
+            try {
