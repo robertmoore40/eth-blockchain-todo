@@ -29,3 +29,6 @@ App = {
         // User denied account access...
       }
     }
+
+      // Legacy dapp browsers...
+      else if (window.web3) {
