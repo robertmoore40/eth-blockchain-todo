@@ -149,3 +149,8 @@ loadContract: async () => {
     } else {
       loader.hide()
       content.show()
+
+
+    }
+  }
+}
