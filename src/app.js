@@ -65,3 +65,6 @@ loadContract: async () => {
 
   render: async () => {
     // Prevent double render
+    if (App.loading) {
+      return
+    }
