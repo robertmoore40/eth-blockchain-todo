@@ -141,3 +141,7 @@ loadContract: async () => {
     
     const loader = $('#loader')
     const content = $('#content')
+
+    if (boolean) {
+      loader.show()
+      content.hide()
