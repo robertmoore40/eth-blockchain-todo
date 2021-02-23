@@ -74,3 +74,6 @@ loadContract: async () => {
 
         // Render Account
     $('#account').html(App.account)
+
+     // Render Tasks
+     await App.renderTasks()
