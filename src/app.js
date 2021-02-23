@@ -97,3 +97,8 @@ loadContract: async () => {
 
       const taskContent = task[1]
       const taskCompleted = task[2]
+
+       // Create the html for the task
+       const $newTaskTemplate = $taskTemplate.clone()
+       $newTaskTemplate.find('.content').html(taskContent)
+       $newTaskTemplate.find('input')
