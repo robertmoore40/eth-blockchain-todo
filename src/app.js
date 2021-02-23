@@ -81,3 +81,6 @@ loadContract: async () => {
       // Update loading state
     App.setLoading(false)
   },
+
+  renderTasks: async () => {
+    // Load the total task count from the blockchain
