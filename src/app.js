@@ -46,3 +46,6 @@ App = {
 
     }
 },
+
+loadAccount: async () => {
+  // Set the current blockchain account
