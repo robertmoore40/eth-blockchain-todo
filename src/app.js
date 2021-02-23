@@ -113,3 +113,6 @@ loadContract: async () => {
       } else {
         $('#taskList').append($newTaskTemplate)
       }
+
+          // Show the task
+          $newTaskTemplate.show()
