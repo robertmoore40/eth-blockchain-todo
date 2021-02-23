@@ -109,3 +109,5 @@ loadContract: async () => {
 
         // Put the task in the correct list
       if (taskCompleted) {
+        $('#completedTaskList').append($newTaskTemplate)
+      } else {
