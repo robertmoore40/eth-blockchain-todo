@@ -94,3 +94,6 @@ loadContract: async () => {
       // Fetch the task data from the blockchain
       const task = await App.todoList.tasks(i)
       const taskId = task[0].toNumber()
+
+      const taskContent = task[1]
+      const taskCompleted = task[2]
