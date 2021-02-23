@@ -116,3 +116,5 @@ loadContract: async () => {
 
           // Show the task
           $newTaskTemplate.show()
+        }
+      },
