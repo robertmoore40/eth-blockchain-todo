@@ -127,3 +127,6 @@ loadContract: async () => {
 
         window.location.reload()
       },
+
+      toggleCompleted: async (e) => {
+        App.setLoading(true)
