@@ -51,3 +51,6 @@ loadAccount: async () => {
   // Set the current blockchain account
   App.account = web3.eth.accounts[0]
 },
+
+loadContract: async () => {
+  // Create a JavaScript version of the smart contract
