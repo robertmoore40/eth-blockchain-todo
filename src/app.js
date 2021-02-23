@@ -68,3 +68,6 @@ loadContract: async () => {
     if (App.loading) {
       return
     }
+
+     // Update app loading state
+     App.setLoading(true)
