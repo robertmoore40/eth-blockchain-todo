@@ -106,3 +106,6 @@ loadContract: async () => {
        .prop('name', taskId)
        .prop('checked', taskCompleted)
        .on('click', App.toggleCompleted)
+
+        // Put the task in the correct list
+      if (taskCompleted) {
