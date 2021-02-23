@@ -84,3 +84,6 @@ loadContract: async () => {
 
   renderTasks: async () => {
     // Load the total task count from the blockchain
+
+    const taskCount = await App.todoList.taskCount()
+    const $taskTemplate = $('.taskTemplate')
