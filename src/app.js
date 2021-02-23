@@ -145,3 +145,7 @@ loadContract: async () => {
     if (boolean) {
       loader.show()
       content.hide()
+
+    } else {
+      loader.hide()
+      content.show()
