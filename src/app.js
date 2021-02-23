@@ -102,3 +102,7 @@ loadContract: async () => {
        const $newTaskTemplate = $taskTemplate.clone()
        $newTaskTemplate.find('.content').html(taskContent)
        $newTaskTemplate.find('input')
+
+       .prop('name', taskId)
+       .prop('checked', taskCompleted)
+       .on('click', App.toggleCompleted)
