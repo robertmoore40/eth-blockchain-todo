@@ -154,3 +154,9 @@ loadContract: async () => {
     }
   }
 }
+
+$(() => {
+  $(window).load(() => {
+    App.load()
+  })
+})
