@@ -54,3 +54,4 @@ loadAccount: async () => {
 
 loadContract: async () => {
   // Create a JavaScript version of the smart contract
+  const todoList = await $.getJSON('TodoList.json')
