@@ -77,3 +77,7 @@ loadContract: async () => {
 
      // Render Tasks
      await App.renderTasks()
+
+      // Update loading state
+    App.setLoading(false)
+  },
