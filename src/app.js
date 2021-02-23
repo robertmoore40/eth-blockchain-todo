@@ -58,3 +58,7 @@ loadContract: async () => {
 
   App.contracts.TodoList = TruffleContract(todoList)
   App.contracts.TodoList.setProvider(App.web3Provider)
+
+   // Hydrate the smart contract with values from the blockchain
+   App.todoList = await App.contracts.TodoList.deployed()
+  },
