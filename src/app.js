@@ -138,3 +138,6 @@ loadContract: async () => {
 
   setLoading: (boolean) => {
     App.loading = boolean
+    
+    const loader = $('#loader')
+    const content = $('#content')
