@@ -87,3 +87,10 @@ loadContract: async () => {
 
     const taskCount = await App.todoList.taskCount()
     const $taskTemplate = $('.taskTemplate')
+
+
+     // Render out each task with a new task template
+     for (var i = 1; i <= taskCount; i++) {
+      // Fetch the task data from the blockchain
+      const task = await App.todoList.tasks(i)
+      const taskId = task[0].toNumber()
