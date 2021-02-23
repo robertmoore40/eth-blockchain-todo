@@ -118,3 +118,6 @@ loadContract: async () => {
           $newTaskTemplate.show()
         }
       },
+
+      createTask: async () => {
+        App.setLoading(true)
